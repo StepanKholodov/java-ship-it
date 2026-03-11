@@ -133,6 +133,9 @@ public class DeliveryApp {
         }
         allParcels.clear();
         trackableParcels.clear();
+        standardBox.clear();
+        fragileBox.clear();
+        perishableBox.clear();
         System.out.println("Все посылки успешно отправлены.");
     }
 

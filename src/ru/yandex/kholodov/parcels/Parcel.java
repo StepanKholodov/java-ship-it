@@ -2,9 +2,9 @@ package ru.yandex.kholodov.parcels;
 
 public abstract class Parcel {
 
-    protected final static int COST_STANDARD = 2;
-    protected final static int COST_PERISHABLE = 3;
-    protected final static int COST_FRAGILE = 4;
+    protected static final int COST_STANDARD = 2;
+    protected static final int COST_PERISHABLE = 3;
+    protected static final int COST_FRAGILE = 4;
 
 
     private final String description;
